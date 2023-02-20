@@ -5,7 +5,7 @@ void main() {
   String operator;
 
   print('Welcome to the Dart Calculator.\n');
-  
+
   print('Give the first number:');
   number1 = double.parse(stdin.readLineSync()!);
 
