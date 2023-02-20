@@ -3,16 +3,17 @@ import 'dart:io';
 void main() {
   double number1, number2;
   String operator;
-  var userInput = stdin.readLineSync()!;
 
+  print('Welcome to the Dart Calculator.\n');
+  
   print('Give the first number:');
-  number1 = double.parse(userInput);
+  number1 = double.parse(stdin.readLineSync()!);
 
   print('Give the second number:');
-  number2 = double.parse(userInput);
+  number2 = double.parse(stdin.readLineSync()!);
 
   print('Enter the operator (+, -, *, /):');
-  operator = userInput;
+  operator = stdin.readLineSync()!;
 
   switch (operator) {
     case '+':
