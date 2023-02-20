@@ -26,7 +26,7 @@ void main() {
       break;
     case '/':
       if (number2 == 0) {
-        print('Error is: Division by zero');
+        print('Error is: Integer Division by Zero Exception');
       } else {
         print('$number1 / $number2 = ${number1 / number2}');
       }
